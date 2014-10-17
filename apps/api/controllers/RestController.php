@@ -49,4 +49,14 @@ class RestController extends Controller
     {
         $this->setStatusCode(404);
     }
+
+    public function addHeader($header, $value)
+    {
+        $this->response->setHeader($header, $value);
+    }
+
+    public function getHeaders()
+    {
+        return $this->response->getHeaders();
+    }
 }
