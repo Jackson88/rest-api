@@ -1,3 +1,4 @@
 rest-api
 ========
-Phalcon Rest Api exapmle
+Простейшее rest api на основе Phalcon
+
