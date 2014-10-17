@@ -36,7 +36,7 @@ class IndexController extends RestController
      */
     public function deleteAction()
     {
-        return ['putAction'];
+        return ['deleteAction'];
     }
 
 }
